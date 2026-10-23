@@ -1,4 +1,8 @@
 #! /usr/bin/env bash 
-gh pr create\
-   --title "Merge Q12345 into main"\
-   --body "holds answers for q1 and q5 until further update "   
+
+
+gh pr create \
+ --base main \
+ --head Q12345 \
+ --title "Merge Q12345 into main" \
+ --body "Contains answers for Q1-Q5"  
